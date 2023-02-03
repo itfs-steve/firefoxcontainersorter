@@ -10,7 +10,7 @@ So, I've made a powershell script. It's a simple script that takes the JSON file
 ## Features
 
 - Ability to run the script in a test run - this will generate a containerstest.json file instead of overwriting the real one
-- Easy to customise - if you want to change the script, it's easy to change
+- Set a custom Output file - and whilst I didn't design it for this, I guess you could use it to backup your container list?
 
 ## Prerequisites
 
