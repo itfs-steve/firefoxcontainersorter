@@ -14,7 +14,7 @@ So, I've made a powershell script. It's a simple script that takes the JSON file
 
 ## Prerequisites
 
-This script does not need to be run as an administrator, but you do need to allow Powershell scripts to run on the system. The easiest way to do this is:
+This script does not need to be run as an administrator, but you do need to allow Powershell scripts to run on the system. The easiest way to do this is to run this **as admin**:
 
 ```powershell
 Set-ExecutionPolicy Unrestricted
