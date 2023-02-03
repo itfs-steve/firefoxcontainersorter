@@ -37,7 +37,6 @@ Just be cautious about running this, as it will allow you to run any script from
 
 ## Coming Soon
 
-- Function parameters for easy mode selection
 - Ability to change "sort by" from alphabetical to colour
 - Ability to change direction of sorting from A-Z to Z-A
 
