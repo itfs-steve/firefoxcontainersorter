@@ -30,9 +30,9 @@ Just be cautious about running this, as it will allow you to run any script from
     - Newer versions of Windows - right-click the script in Explorer and select "Run with Powershell"
     - Older versions - open Powershell, "cd" to your script file location, then run .\scriptname.ps1
 4. Run the command ```SortFirefoxContainers``` to start the sorting process
-    - You can use the ```TestRun``` parameter to do a test run without affecting your original containers file
-        - When testing, use the ```OutFile``` parameter to specify your test file (make it a .json file) - if you don't do this, a "containertest.json" file will be created in your Firefox profile directory
-    - Type "testrun" to run the script in test mode, creating a new test file without overwriting the original
+    - You can use the ```-TestRun``` parameter to do a test run without affecting your original containers file
+        - When testing, use the ```-OutFile``` parameter to specify your test file (make it a .json file) - if you don't do this, a "containertest.json" file will be created in your Firefox profile directory
+    - If you don't want to go through the profile selection process, just specify your profile directory with the ```-ProfileDirectory``` parameter
 5. You're all done
 
 ## Coming Soon
