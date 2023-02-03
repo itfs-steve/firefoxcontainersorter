@@ -5,7 +5,7 @@ In the later versions of Containers, filtering has been added to make life easie
 
 So, I've made a powershell script. It's a simple script that takes the JSON file that FireFox creates, splits the array out, sorts it, then puts it back together again.
 
-**This is still in alpha, please use at own risk**
+**:exclamation: This is still in alpha, please use at own risk**
 
 ## Features
 
