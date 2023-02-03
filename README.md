@@ -29,7 +29,7 @@ Just be cautious about running this, as it will allow you to run any script from
 3. Run the script 
     - Newer versions of Windows - right-click the script in Explorer and select "Run with Powershell"
     - Older versions - open Powershell, "cd" to your script file location, then run .\scriptname.ps1
-4. Select your mode
+4. Run the command ```powershell SortFirefoxContainers ``` to start the sorting process
     - Type "full" to run the script in live
     - Type "testrun" to run the script in test mode, creating a new test file without overwriting the original
 5. You're all done

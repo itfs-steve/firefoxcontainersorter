@@ -64,3 +64,13 @@ function SortFirefoxContainers {
 
     Pause
 }
+
+Write-Host "Welcome to the Firefox Container Sorter utility!" -ForegroundColor DarkMagenta
+Write-Host ""
+Write-Host "Just run 'SortFirefoxContainers' to sort your containers" -ForegroundColor Green
+Write-Host ""
+Write-Host "To run a Test Run, use the '-TestRun' parameter"  -ForegroundColor Magenta
+Write-Host "When testing, you can specify a custom output file using the '-OutFile' parameter - make sure you make the output file a .json file"  -ForegroundColor Magenta
+Write-Host ""
+Write-Host "You can bypass the profile selection process by manually specifying the profile directory with the '-ProfileDirectory' parameter"  -ForegroundColor DarkYellow
+Write-Host ""
