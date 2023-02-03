@@ -27,7 +27,7 @@ Just be cautious about running this, as it will allow you to run any script from
 1. Download the script
 2. Close Firefox (if open)
 3. Open Powershell, ```Set-Location``` to your script file location, then run ```. .\FFContainerSort.ps1```
-    - Remember to put a ```. ``` before the ```.\FFContainerSort.ps1``` as that will push the function into the global scope
+    - Remember to put a ```. ``` before the ```.\FFContainerSort.ps1``` as that will push the function into the global scope and allow you to call it after the script has loaded
 4. Run the command ```SortFirefoxContainers``` to start the sorting process
     - You can use the ```-TestRun``` parameter to do a test run without affecting your original containers file
         - When testing, use the ```-OutFile``` parameter to specify your test file (make it a .json file) - if you don't do this, a "containerstest.json" file will be created in your Firefox profile directory
