@@ -40,7 +40,10 @@ function SortFirefoxContainers {
             Set-Location "$ProfileDirectory"
         } else {
             Set-Location "$env:USERPROFILE\AppData\Roaming\Mozilla\Firefox\Profiles"
-            Get-ChildItem
+            Write-Host ""
+            Write-Host "Detected Profiles:" -ForegroundColor DarkGray
+            Get-ChildItem -Name
+            Write-Host ""
             $containersLocation = Read-Host -Prompt "Which profile are you editing"
             Set-Location "$env:USERPROFILE\AppData\Roaming\Mozilla\Firefox\Profiles\$containersLocation"
         }
