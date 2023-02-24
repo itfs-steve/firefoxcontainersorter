@@ -22,6 +22,8 @@ Set-ExecutionPolicy Unrestricted
 
 Just be cautious about running this, as it will allow you to run any script from any location on the system.
 
+If you don't know what firefox profile is the right one, open firefox, go to ```about:profiles``` in the address bar and your in-use profile will be present with the directory path (including the random code that identifies your profile).
+
 ## Usage
 
 1. Download the script
