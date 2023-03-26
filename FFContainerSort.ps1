@@ -27,8 +27,7 @@ function SortFirefoxContainers {
         } else {
             $scptOutputFile = "containers.json"
         }
-
-        
+  
     }
 
     if ($scptError -eq 1) {
