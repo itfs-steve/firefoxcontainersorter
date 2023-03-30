@@ -67,6 +67,7 @@ function SortFirefoxContainers {
     Pause
 }
 
+
 Write-Host "Welcome to the Firefox Container Sorter utility!" -ForegroundColor DarkMagenta
 Write-Host ""
 Write-Host "Just run 'SortFirefoxContainers' to sort your containers" -ForegroundColor Green
