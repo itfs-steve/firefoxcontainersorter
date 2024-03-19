@@ -21,7 +21,7 @@ If you don't know what firefox profile is the right one, open firefox, go to `ab
 
 ## Usage
 
-1. Download the program
+1. Download the program from Releases.
 2. Close Firefox (if open)
 3. Open the program file, and follow the instructions.
    - You can specify here whether to do a Test Run. If you choose this, you can then specify a custom filename.
