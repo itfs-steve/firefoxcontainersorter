@@ -41,7 +41,7 @@ def sort_firefox_containers(profile_directory=None, out_file=None, test_run=Fals
         containers = json.load(f)
 
     # Sort identities array alphabetically
-    sorted_containers = sorted(containers['identities'], key=lambda x: x['name'].lower())
+    sorted_containers = sorted(containers['identities'], key=lambda x: x.get('name', '').lower())
 
     # Update containers dictionary with sorted identities
     containers['identities'] = sorted_containers
