@@ -64,9 +64,9 @@ if __name__ == "__main__":
     print("You can bypass the profile selection process by manually specifying the profile directory with the 'profile_directory' parameter")
     print("")
 
-    test_run = input("Do you want to run a test run? (yes/no): ").lower() == 'yes'
-    out_file = input("Do you want to specify a custom output file? (yes/no): ").lower() == 'yes'
-    profile_directory = input("Do you want to specify the profile directory? (yes/no): ").lower() == 'yes'
+    test_run = input("Do you want to run a test run? (yes/[no]): ").lower() == 'yes'
+    out_file = input("Do you want to specify a custom output file? (yes/[no]): ").lower() == 'yes'
+    profile_directory = input("Do you want to specify the profile directory? (yes/[no]): ").lower() == 'yes'
 
     if out_file:
         out_file_name = input("Enter the custom output file name (make sure it's a .json file): ")
