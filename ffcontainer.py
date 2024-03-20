@@ -63,6 +63,9 @@ if __name__ == "__main__":
     print("")
     print("You can bypass the profile selection process by manually specifying the profile directory with the 'profile_directory' parameter")
     print("")
+    print("")
+
+    print("Question time! (If it's in [square brackets], it's the default)")
 
     test_run = input("Do you want to run a test run? (yes/[no]): ").lower() == 'yes'
     out_file = input("Do you want to specify a custom output file? (yes/[no]): ").lower() == 'yes'
